@@ -72,7 +72,7 @@ export default function Portfolio() {
       title: "Televault Escrow Smart Contract",
       description:
         "Escrow smart contract for conversion of vaulted bellscoin to ethereum and vice versa.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/televault.png",
       technologies: ["Solidity", "Hardhat", "NFT"],
       github: "https://github.com/MKarloPilares/multisig-escrow-smart-contract",
       category: "Smart Contract/Back end",
