@@ -81,9 +81,10 @@ export default function Portfolio() {
 
   const skills = [
     { category: "Frontend", items: ["React", "Next.js", "Bootstrap", "Typescript", "Javascript", "HTML/CSS"] },
-    { category: "Backend", items: ["Node.js", "Python", "PHP", "Laravel", "Solidity"]},
-    { category: "Database", items: ["MySQL"] },
+    { category: "Backend", items: ["Node.js", "Python", "PHP", "Laravel"]},
+    {category: "Blockchain", items: ["Solidity"]},
     { category: "Mobile", items: ["React Native", "Expo"] },
+    { category: "Database", items: ["MySQL"] },
     {category: "Version Control", items: ["Git", "GitHub"]},
   ]
 
