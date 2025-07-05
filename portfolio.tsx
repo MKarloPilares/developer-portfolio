@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
+import { ThemeToggle } from "@/components/theme-toggle"
 import {
   Github,
   ExternalLink,
@@ -95,19 +96,22 @@ export default function Portfolio() {
             <Code className="h-6 w-6" />
             <span className="font-bold text-xl">Mhar Karlo Pilares</span>
           </div>
-          <div className="hidden md:flex items-center space-x-6">
-            <Link href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-              About
-            </Link>
-            <Link href="#projects" className="text-sm font-medium hover:text-primary transition-colors">
-              Projects
-            </Link>
-            <Link href="#skills" className="text-sm font-medium hover:text-primary transition-colors">
-              Skills
-            </Link>
-            <Link href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
-              Contact
-            </Link>
+          <div className="flex items-center space-x-6">
+            <div className="hidden md:flex items-center space-x-6">
+              <Link href="#about" className="text-sm font-medium hover:text-primary transition-colors">
+                About
+              </Link>
+              <Link href="#projects" className="text-sm font-medium hover:text-primary transition-colors">
+                Projects
+              </Link>
+              <Link href="#skills" className="text-sm font-medium hover:text-primary transition-colors">
+                Skills
+              </Link>
+              <Link href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
+                Contact
+              </Link>
+            </div>
+            <ThemeToggle />
           </div>
         </div>
       </nav>
@@ -324,7 +328,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t py-8">
         <div className="w-full px-4 md:px-6 text-center text-muted-foreground">
-          <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+          <p>&copy; 2025 Mhar Karlo Pilares. All rights reserved.</p>
         </div>
       </footer>
     </div>
