@@ -73,8 +73,7 @@ export default function Portfolio() {
         "Escrow smart contract for conversion of vaulted bellscoin to ethereum and vice versa.",
       image: "/placeholder.svg?height=200&width=300",
       technologies: ["Solidity", "Hardhat", "NFT"],
-      github: "https://github.com/username/blockchain-voting",
-      demo: "https://voting-demo.vercel.app",
+      github: "https://github.com/MKarloPilares/multisig-escrow-smart-contract",
       category: "Smart Contract/Back end",
     },
   ]
@@ -278,7 +277,7 @@ export default function Portfolio() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button size="lg" asChild>
-              <Link href="karlo29pilares@gmail.com">
+              <Link href="mailto:karlo29pilares@gmail.com">
                 <Mail className="h-5 w-5 mr-2" />
                 Send Email
               </Link>
