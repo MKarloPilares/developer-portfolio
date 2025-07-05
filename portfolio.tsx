@@ -46,7 +46,7 @@ export default function Portfolio() {
       description:
         "Mobile e-commerce platform for freelancers to sell their services.",
       image: "/LG.png",
-      technologies: ["Typescript", "Javascript", "NodeJS", "React", "Expo"],
+      technologies: ["Typescript", "Javascript", "NodeJS", "React Native"],
       github: "https://github.com/MKarloPilares/Lancers-Guild",
       category: "Mobile App/Full Stack",
     },
@@ -83,7 +83,7 @@ export default function Portfolio() {
     { category: "Frontend", items: ["React", "Next.js", "Bootstrap", "Typescript", "Javascript", "HTML/CSS"] },
     { category: "Backend", items: ["Node.js", "Python", "PHP", "Laravel"]},
     {category: "Blockchain", items: ["Solidity"]},
-    { category: "Mobile", items: ["React Native", "Expo"] },
+    { category: "Mobile", items: ["React Native"] },
     { category: "Database", items: ["MySQL"] },
     {category: "Version Control", items: ["Git", "GitHub"]},
   ]
