@@ -11,8 +11,7 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/developer-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/developer-portfolio/' : '',
+  skipTrailingSlashRedirect: true,
 }
 
 export default nextConfig
