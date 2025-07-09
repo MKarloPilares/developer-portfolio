@@ -29,7 +29,7 @@ export default function Portfolio() {
         "Decentralized medical record management and sharing application powered by blockchain, IPFS, and NFTs.",
       image: "/medicrypt.png",
       technologies: ["React", "Typescript",  "Solidity", "IPFS", "NFT"],
-      github: "https://github.com/MKarloPilares/MediCrypt",
+      github: "https://github.com/MKarloPilares/MediCrypt-Smart-Contract",
       category: "dApp/Full Stack",
     },
     {
