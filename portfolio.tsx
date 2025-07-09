@@ -50,15 +50,15 @@ export default function Portfolio() {
       github: "https://github.com/MKarloPilares/Lancers-Guild",
       category: "Mobile App/Full Stack",
     },
-    {
-      title: "UBestination Registration System",
-      description:
-        "Registration system for guests during the University of Batangas' open house event.",
-      image: "/Bestination.png",
-      technologies: ["PHP", "MySQL", "Bootstrap"],
-      github: "https://github.com/MKarloPilares/bestination-registration-archive",
-      category: "Web App/Full Stack",
-    },
+    // {
+    //   title: "UBestination Registration System",
+    //   description:
+    //     "Registration system for guests during the University of Batangas' open house event.",
+    //   image: "/Bestination.png",
+    //   technologies: ["PHP", "MySQL", "Bootstrap"],
+    //   github: "https://github.com/MKarloPilares/bestination-registration-archive",
+    //   category: "Web App/Full Stack",
+    // },
     {
       title: "CICT Days Registration System",
       description:
