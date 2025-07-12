@@ -77,6 +77,15 @@ export default function Portfolio() {
       github: "https://github.com/MKarloPilares/multisig-escrow-smart-contract",
       category: "Smart Contract/Back end",
     },
+    {
+      title: "Locked Vault and Proxy Contracts",
+      description:
+        "Most recent practice smart contracts to learn and relearn Solidity concepts.",
+      image: "/placeholder.svg",
+      technologies: ["Solidity", "Hardhat", "Chai"],
+      github: "https://github.com/MKarloPilares/Locked-Vaulta-and-Proxy",
+      category: "Smart Contract/Back end",
+    },
   ]
 
   const skills = [
